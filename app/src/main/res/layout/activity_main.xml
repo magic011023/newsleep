@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--控件：展示睡眠时间-->
+    <TextView
+        android:id="@+id/tv_sleep_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sleep_time"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!--控件：开始睡眠-->
+    <Button
+        android:id="@+id/btn_start_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_button"
+        android:layout_below="@id/tv_sleep_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!--控件：结束睡眠-->
+    <Button
+        android:id="@+id/btn_end_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_button"
+        android:layout_below="@id/btn_start_sleep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!--控件：显示睡眠状态-->
+    <TextView
+        android:id="@+id/tv_sleep_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sleep_status"
+        android:textSize="24sp"
+        android:layout_below="@id/btn_end_sleep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+</RelativeLayout>

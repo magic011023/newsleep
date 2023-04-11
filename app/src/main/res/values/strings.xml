@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">newsleep</string>
+    <string name="start_button">开始睡眠</string>
+    <string name="end_button">结束睡眠</string>
+    <string name="sleep_status">睡眠状态</string>
+    <string name="sleep_time">睡眠时间</string>
+</resources>
